@@ -1,0 +1,115 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+
+.home-section {
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+.home-section h1 {
+    color: white;
+    font-size: 128px;
+    padding: 50px 50px;
+    text-shadow: black 0 0 16px;
+}
+
+.home-section img {
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 6px;
+}
+
+.home-section .background {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    user-select: none;
+    background-image: url(../assets/background.jpg);
+    filter: blur(16px);
+}
+
+.profile-section {
+    text-align: center;
+    min-height: 100vh;
+}
+
+.profile-section h1 {
+    font-size: 128px;
+    text-shadow: black 0 0 4px;
+}
+
+.profile-section .context {
+    width: 80%;
+    margin: auto auto;
+    padding: 20px 20px;
+}
+
+.profile-section .context .text h2 {
+    color: black;
+    font-size: 64px;
+    padding: 20px 20px;
+}
+
+.profile-section .context .text p {
+    color: black;
+    font-size: 24px;
+}
+
+.profile-section .context .text a {
+    color: black;
+    text-decoration: none;
+    font-size: 64px;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+.profile-section .context ul {
+    list-style: none;
+    margin: 25px 25px;
+}
+
+.profile-section .context  ul li {
+    display: inline-table;
+    margin: 25px 25px;
+}
+
+.contact-section {
+    color: white;
+    text-align: center;
+    background: rgb(25, 25, 25);
+    padding: 25px 0px;
+}
+
+.contact-section h1 {
+    font-size: 64px;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 25px 25px;
+}
+
+.contact-section ul li {
+    display: inline-table;
+    margin: 25px 25px;
+}
+
+.contact-section ul li img:hover {
+    filter: opacity(0.5)
+}
+
+.contact-section ul li img {
+    width: 128px;
+    border-radius: 100%;
+    transition: all 0.25s linear;
+}
+
+.contact-section p {
+    font-size: 32px;
+}
